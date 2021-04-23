@@ -15,4 +15,7 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  postarray = {
+    0: { username: 'pepik', header: 'myheader', body: 'mybody' }};
+}

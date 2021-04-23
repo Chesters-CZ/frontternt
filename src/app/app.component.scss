@@ -1,0 +1,114 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: black;
+}
+
+.mainlogo{
+  text-align: center;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: black;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+#centercolumn {
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+.img {
+  padding: 20px;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.tweetcard {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+.row {
+  display: table;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+.column {
+  display: table-cell;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.searchBox {
+  position: absolute;
+  left: 80%;
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.searchButton {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color : #2f3640;
+}
+
+.searchInput {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  width: 240px;
+  padding: 0 6px;
+
+}
+
+.tweetbutton {
+  position: relative;
+  overflow: hidden;
+  width: 14rem;
+  height: 4rem;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  line-height: 2;
+  border-radius: 1.5rem;
+  font-size: 22px;
+  background-color: #2f3640;
+}
